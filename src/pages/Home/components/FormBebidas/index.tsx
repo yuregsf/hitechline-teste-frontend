@@ -1,6 +1,6 @@
 import { ChangeEvent, MouseEvent, useContext, useMemo, useState } from "react"
-import { HomeContext, IBebida } from "../../../context/HomeContext"
-import { Button, Container } from "../../Home/styles"
+import { HomeContext, IBebida } from "../../../../context/HomeContext"
+import { Button, Container } from "../../styles"
 import { ErrorSpan, FormItem } from "./styles"
 
 export default function FormBebidas() {

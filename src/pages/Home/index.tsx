@@ -1,8 +1,8 @@
 import { useState } from 'react';
 import { HomeContext, IBebida } from '../../context/HomeContext';
-import FormBebidas from '../components/FormBebidas';
-import Modal from '../components/Modal';
-import TableBebidas from '../components/TableBebidas';
+import FormBebidas from './components/FormBebidas';
+import Modal from './components/Modal';
+import TableBebidas from './components/TableBebidas';
 import { Container, Button, Item } from './styles';
 
 export const Home = (): JSX.Element => {

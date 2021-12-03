@@ -1,5 +1,5 @@
 import { useContext } from "react"
-import { HomeContext, IBebida } from "../../../context/HomeContext"
+import { HomeContext, IBebida } from "../../../../context/HomeContext"
 import { Table, Td, Th } from "./styles"
 
 export default function TableBebidas() {

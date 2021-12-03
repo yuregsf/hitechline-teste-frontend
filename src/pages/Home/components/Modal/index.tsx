@@ -1,5 +1,5 @@
 import { useContext, useEffect, useRef } from "react";
-import { HomeContext } from "../../../context/HomeContext";
+import { HomeContext } from "../../../../context/HomeContext";
 import { ModalBase, ModalContent } from "./styles";
 
 type PropsType = {
